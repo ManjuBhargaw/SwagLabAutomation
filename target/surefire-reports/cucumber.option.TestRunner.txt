@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: cucumber.option.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.764 s <<< FAILURE! -- in cucumber.option.TestRunner
+Login Funtionality.Login with valid credentials -- Time elapsed: 0.127 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "helper.Base.prop" is null
+	at helper.Base.setup(Base.java:69)
+
+Login Funtionality.Login with valid credentials -- Time elapsed: 0.129 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+	at helper.Base.TearDown(Base.java:271)
+

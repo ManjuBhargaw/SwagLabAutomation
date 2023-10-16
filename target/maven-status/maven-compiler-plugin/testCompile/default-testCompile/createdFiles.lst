@@ -1,0 +1,7 @@
+cucumber\option\TestRunner.class
+Stepdefination\checkoutpagestep.class
+pages\Loginpage.class
+Stepdefination\Basketpagestep.class
+pages\Basketpage.class
+Stepdefination\loginpagesteps.class
+pages\checkoutpage.class
